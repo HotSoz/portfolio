@@ -1,0 +1,32 @@
+/*
+base colors:
+
+#44495d
+#333647
+#282a39
+#dea797
+#f77c59
+*/
+
+html, body {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 8px;
+    }
+}
+
+body {
+    background-color: #333647;
+}
+
+.icon_bar {
+    padding: 3vw;
+}
+
+.img_icon {
+    width: 6vw;
+}
