@@ -11,22 +11,86 @@ base colors:
 html, body {
     margin: 0;
     font-size: 16px;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-      font-size: 8px;
-    }
+    font-family: 'Arvo', serif;
 }
 
 body {
     background-color: #333647;
 }
 
+nav a {
+    display: block;
+    padding: 1vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      font-size: 10px;
+    }
+}
+
+/* CLASS */
+
 .icon_bar {
     padding: 3vw;
 }
 
 .img_icon {
-    width: 6vw;
+    width: 7vw;
+}
+
+.designer_background {
+    opacity: 15%;
+    padding: 0 10vw;
+    user-select: none;
+    position: fixed;
+    z-index: -1;
+}
+
+.designer_background p {
+    margin:0;
+    position: aboslute;
+    font-size: 16vw;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav_bar {
+    position: fixed;
+    padding: 3vw;
+    right: 0;
+    user-select: none;
+    background-color: #282a39;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav_bar a:hover {
+    background-color: #333647;
+}
+
+.main_intro {
+    margin: 0 10vw;
+    color: #fff;
+    border-left: 1vw solid #000000;
+    user-select: none;
+}
+
+.intro_div {
+    margin: 0 2vw;
+}
+
+.header_large {
+    font-size: 6vw;
+}
+
+.size_medium {
+    font-size: 3vw;
+}
+
+.size_small {
+    font-size: 1.5vw;
 }
