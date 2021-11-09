@@ -102,3 +102,20 @@ nav a {
     font-size: 300%;
     color: #fff;
 }
+
+.project_showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.display_card {
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    margin: 0 100px;
+}
+
+.display_card img {
+    height: 400px;
+    width: 500px;
+}
